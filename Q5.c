@@ -8,7 +8,7 @@ void Tiny(char * str);
 
 
 void Tiny(char * str){
-    for (int i = 0; str != '\0'; i++)
+    for (int i = 0; str[i] != '\0'; i++)
         if (str <= 'A' || str >= 'Z')
             str[i] += 'Z' - 'A';
 }
