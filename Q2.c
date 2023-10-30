@@ -8,7 +8,7 @@
 float media(float *vetor, int n);
 
 float media(float *vetor, int n){
-    int a = 0;
+    float a = 0;
     for (int i = 0; i < n; i++)
         a += vetor[i];
     return a/n;
