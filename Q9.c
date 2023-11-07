@@ -9,6 +9,6 @@ int length(char *string);
 
 int length(char *string){
     int aux = 0;
-    for ( ; string[aux] != '/0' ; aux++);
+    for ( ; string[aux] != '\0' ; aux++);
     return aux;
 }
